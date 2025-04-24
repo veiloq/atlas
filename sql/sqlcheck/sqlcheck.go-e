@@ -66,7 +66,7 @@ type (
 
 		// A Parser that may be used for parsing this file. It sets to any as the contract
 		// between checks and their parsers can vary. For example, in case of running checks
-		// from CLI, the injected parser can be found in cmd/atlas/pkg/sqlparse.Parser.
+		// from CLI, the injected parser can be found in cmd/atlas/internal/sqlparse.Parser.
 		Parser any
 
 		// schema spans. lazily initialized.
