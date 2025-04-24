@@ -7,8 +7,8 @@
 package postgrescheck
 
 import (
-	"ariga.io/atlas/sql/postgres"
-	"ariga.io/atlas/sql/sqlcheck"
+	"github.com/veiloq/atlas/sql/postgres"
+	"github.com/veiloq/atlas/sql/sqlcheck"
 )
 
 func init() {

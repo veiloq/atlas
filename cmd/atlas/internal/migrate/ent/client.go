@@ -13,16 +13,16 @@ import (
 	"log"
 	"reflect"
 
-	"ariga.io/atlas/cmd/atlas/internal/migrate/ent/migrate"
+	"github.com/veiloq/atlas/cmd/atlas/internal/migrate/ent/migrate"
 
-	"ariga.io/atlas/cmd/atlas/internal/migrate/ent/revision"
+	"github.com/veiloq/atlas/cmd/atlas/internal/migrate/ent/revision"
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"
 	"entgo.io/ent/dialect/sql"
 
 	stdsql "database/sql"
 
-	"ariga.io/atlas/cmd/atlas/internal/migrate/ent/internal"
+	"github.com/veiloq/atlas/cmd/atlas/internal/migrate/ent/internal"
 )
 
 // Client is the client that holds all ent builders.

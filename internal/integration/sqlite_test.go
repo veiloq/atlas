@@ -15,10 +15,10 @@ import (
 	"strings"
 	"testing"
 
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/postgres"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlite"
+	"github.com/veiloq/atlas/sql/migrate"
+	"github.com/veiloq/atlas/sql/postgres"
+	"github.com/veiloq/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/sqlite"
 
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/stretchr/testify/require"

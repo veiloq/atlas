@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"testing"
 
-	"ariga.io/atlas/sql/internal/sqltest"
-	"ariga.io/atlas/sql/internal/sqlx"
-	"ariga.io/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/internal/sqltest"
+	"github.com/veiloq/atlas/sql/internal/sqlx"
+	"github.com/veiloq/atlas/sql/schema"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/stretchr/testify/require"

@@ -10,11 +10,11 @@ import (
 	"context"
 	"fmt"
 
-	"ariga.io/atlas/schemahcl"
-	"ariga.io/atlas/sql/internal/specutil"
-	"ariga.io/atlas/sql/internal/sqlx"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlspec"
+	"github.com/veiloq/atlas/schemahcl"
+	"github.com/veiloq/atlas/sql/internal/specutil"
+	"github.com/veiloq/atlas/sql/internal/sqlx"
+	"github.com/veiloq/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/sqlspec"
 )
 
 // InspectRealm returns schema descriptions of all resources in the given realm.

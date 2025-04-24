@@ -9,15 +9,15 @@ import (
 	"fmt"
 	"strings"
 
-	"ariga.io/atlas/schemahcl"
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlcheck"
-	"ariga.io/atlas/sql/sqlcheck/condrop"
-	"ariga.io/atlas/sql/sqlcheck/datadepend"
-	"ariga.io/atlas/sql/sqlcheck/destructive"
-	"ariga.io/atlas/sql/sqlcheck/incompatible"
-	"ariga.io/atlas/sql/sqlite"
+	"github.com/veiloq/atlas/schemahcl"
+	"github.com/veiloq/atlas/sql/migrate"
+	"github.com/veiloq/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/sqlcheck"
+	"github.com/veiloq/atlas/sql/sqlcheck/condrop"
+	"github.com/veiloq/atlas/sql/sqlcheck/datadepend"
+	"github.com/veiloq/atlas/sql/sqlcheck/destructive"
+	"github.com/veiloq/atlas/sql/sqlcheck/incompatible"
+	"github.com/veiloq/atlas/sql/sqlite"
 )
 
 // codeModNotNullC is an SQLite specific code for reporting modifying nullable columns to non-nullable.

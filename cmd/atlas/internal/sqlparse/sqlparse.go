@@ -7,14 +7,14 @@ package sqlparse
 import (
 	"sync"
 
-	"ariga.io/atlas/cmd/atlas/internal/sqlparse/myparse"
-	"ariga.io/atlas/cmd/atlas/internal/sqlparse/pgparse"
-	"ariga.io/atlas/cmd/atlas/internal/sqlparse/sqliteparse"
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/mysql"
-	"ariga.io/atlas/sql/postgres"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlite"
+	"github.com/veiloq/atlas/cmd/atlas/internal/sqlparse/myparse"
+	"github.com/veiloq/atlas/cmd/atlas/internal/sqlparse/pgparse"
+	"github.com/veiloq/atlas/cmd/atlas/internal/sqlparse/sqliteparse"
+	"github.com/veiloq/atlas/sql/migrate"
+	"github.com/veiloq/atlas/sql/mysql"
+	"github.com/veiloq/atlas/sql/postgres"
+	"github.com/veiloq/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/sqlite"
 )
 
 // A Parser represents an SQL file parser used to fix, search and enrich schema.Changes.

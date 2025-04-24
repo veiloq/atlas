@@ -12,8 +12,8 @@ import (
 	"slices"
 	"sort"
 
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/migrate"
+	"github.com/veiloq/atlas/sql/schema"
 )
 
 type (

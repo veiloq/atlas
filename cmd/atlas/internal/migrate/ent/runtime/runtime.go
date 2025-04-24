@@ -6,7 +6,7 @@
 
 package runtime
 
-// The schema-stitching logic is generated in ariga.io/atlas/cmd/atlas/internal/migrate/ent/runtime.go
+// The schema-stitching logic is generated in github.com/veiloq/atlas/cmd/atlas/internal/migrate/ent/runtime.go
 
 const (
 	Version = "v0.14.2-0.20250212161803-c5db03c30e8d"           // Version of ent codegen.

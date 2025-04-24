@@ -10,16 +10,16 @@ import (
 	"strconv"
 	"strings"
 
-	"ariga.io/atlas/schemahcl"
-	"ariga.io/atlas/sql/internal/sqlx"
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/mysql"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlcheck"
-	"ariga.io/atlas/sql/sqlcheck/condrop"
-	"ariga.io/atlas/sql/sqlcheck/datadepend"
-	"ariga.io/atlas/sql/sqlcheck/destructive"
-	"ariga.io/atlas/sql/sqlcheck/incompatible"
+	"github.com/veiloq/atlas/schemahcl"
+	"github.com/veiloq/atlas/sql/internal/sqlx"
+	"github.com/veiloq/atlas/sql/migrate"
+	"github.com/veiloq/atlas/sql/mysql"
+	"github.com/veiloq/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/sqlcheck"
+	"github.com/veiloq/atlas/sql/sqlcheck/condrop"
+	"github.com/veiloq/atlas/sql/sqlcheck/datadepend"
+	"github.com/veiloq/atlas/sql/sqlcheck/destructive"
+	"github.com/veiloq/atlas/sql/sqlcheck/incompatible"
 )
 
 var (

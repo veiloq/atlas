@@ -7,7 +7,7 @@ package schema
 import (
 	"time"
 
-	"ariga.io/atlas/sql/migrate"
+	"github.com/veiloq/atlas/sql/migrate"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect/entsql"

@@ -14,9 +14,9 @@ import (
 	"path/filepath"
 	"runtime"
 
-	cmdmigrate "ariga.io/atlas/cmd/atlas/internal/migrate"
-	"ariga.io/atlas/schemahcl"
-	"ariga.io/atlas/sql/migrate"
+	cmdmigrate "github.com/veiloq/atlas/cmd/atlas/internal/migrate"
+	"github.com/veiloq/atlas/schemahcl"
+	"github.com/veiloq/atlas/sql/migrate"
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"

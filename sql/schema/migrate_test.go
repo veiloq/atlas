@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"testing"
 
-	"ariga.io/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/schema"
 
 	"github.com/stretchr/testify/require"
 )

@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"strings"
 
-	"ariga.io/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/schema"
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"

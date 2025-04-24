@@ -12,9 +12,9 @@ import (
 	"net/url"
 	"strconv"
 
-	"ariga.io/atlas/cmd/atlas/internal/cmdlog"
-	cmdmigrate "ariga.io/atlas/cmd/atlas/internal/migrate"
-	"ariga.io/atlas/sql/migrate"
+	"github.com/veiloq/atlas/cmd/atlas/internal/cmdlog"
+	cmdmigrate "github.com/veiloq/atlas/cmd/atlas/internal/migrate"
+	"github.com/veiloq/atlas/sql/migrate"
 	"github.com/spf13/cobra"
 )
 

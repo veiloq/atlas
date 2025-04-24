@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"strings"
 
-	"ariga.io/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/schema"
 
 	"github.com/go-openapi/inflect"
 )

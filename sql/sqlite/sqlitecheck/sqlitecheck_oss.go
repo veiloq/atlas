@@ -7,8 +7,8 @@
 package sqlitecheck
 
 import (
-	"ariga.io/atlas/sql/sqlcheck"
-	"ariga.io/atlas/sql/sqlite"
+	"github.com/veiloq/atlas/sql/sqlcheck"
+	"github.com/veiloq/atlas/sql/sqlite"
 )
 
 func init() {

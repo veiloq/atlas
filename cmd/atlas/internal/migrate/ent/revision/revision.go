@@ -7,7 +7,7 @@
 package revision
 
 import (
-	"ariga.io/atlas/sql/migrate"
+	"github.com/veiloq/atlas/sql/migrate"
 	"entgo.io/ent/dialect/sql"
 )
 

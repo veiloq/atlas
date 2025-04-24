@@ -10,12 +10,12 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"ariga.io/atlas/schemahcl"
-	"ariga.io/atlas/sql/mysql"
-	"ariga.io/atlas/sql/postgres"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlite"
-	"ariga.io/atlas/sql/sqlspec"
+	"github.com/veiloq/atlas/schemahcl"
+	"github.com/veiloq/atlas/sql/mysql"
+	"github.com/veiloq/atlas/sql/postgres"
+	"github.com/veiloq/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/sqlite"
+	"github.com/veiloq/atlas/sql/sqlspec"
 
 	"github.com/stretchr/testify/require"
 )

@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"ariga.io/atlas/sql/internal/sqltest"
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/internal/sqltest"
+	"github.com/veiloq/atlas/sql/migrate"
+	"github.com/veiloq/atlas/sql/schema"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/stretchr/testify/require"

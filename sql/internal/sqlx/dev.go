@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/migrate"
+	"github.com/veiloq/atlas/sql/schema"
 )
 
 // DevDriver is a driver that provides additional functionality

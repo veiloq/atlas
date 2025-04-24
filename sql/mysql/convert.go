@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"ariga.io/atlas/sql/internal/sqlx"
-	"ariga.io/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/internal/sqlx"
+	"github.com/veiloq/atlas/sql/schema"
 )
 
 // FormatType converts schema type to its column form in the database.

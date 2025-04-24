@@ -12,12 +12,12 @@ import (
 	"strconv"
 	"strings"
 
-	"ariga.io/atlas/schemahcl"
-	"ariga.io/atlas/sql/internal/specutil"
-	"ariga.io/atlas/sql/internal/sqlx"
-	"ariga.io/atlas/sql/postgres/internal/postgresop"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlspec"
+	"github.com/veiloq/atlas/schemahcl"
+	"github.com/veiloq/atlas/sql/internal/specutil"
+	"github.com/veiloq/atlas/sql/internal/sqlx"
+	"github.com/veiloq/atlas/sql/postgres/internal/postgresop"
+	"github.com/veiloq/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/sqlspec"
 
 	"github.com/hashicorp/hcl/v2/hclparse"
 	"github.com/zclconf/go-cty/cty"

@@ -14,12 +14,12 @@ import (
 	"strings"
 	"time"
 
-	"ariga.io/atlas/sql/internal/sqlx"
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/mysql/internal/mysqlversion"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlclient"
-	"ariga.io/atlas/sql/sqlspec"
+	"github.com/veiloq/atlas/sql/internal/sqlx"
+	"github.com/veiloq/atlas/sql/migrate"
+	"github.com/veiloq/atlas/sql/mysql/internal/mysqlversion"
+	"github.com/veiloq/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/sqlclient"
+	"github.com/veiloq/atlas/sql/sqlspec"
 )
 
 type (

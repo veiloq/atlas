@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"ariga.io/atlas/sql/migrate"
+	"github.com/veiloq/atlas/sql/migrate"
 	"github.com/stretchr/testify/require"
 )
 

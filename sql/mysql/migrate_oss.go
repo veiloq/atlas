@@ -13,9 +13,9 @@ import (
 	"strconv"
 	"strings"
 
-	"ariga.io/atlas/sql/internal/sqlx"
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/internal/sqlx"
+	"github.com/veiloq/atlas/sql/migrate"
+	"github.com/veiloq/atlas/sql/schema"
 )
 
 var (

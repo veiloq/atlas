@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/sqlclient"
+	"github.com/veiloq/atlas/sql/migrate"
+	"github.com/veiloq/atlas/sql/sqlclient"
 
 	"github.com/hashicorp/go-retryablehttp"
 	"github.com/vektah/gqlparser/v2/gqlerror"

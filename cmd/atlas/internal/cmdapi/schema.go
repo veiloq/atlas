@@ -17,11 +17,11 @@ import (
 	"text/template"
 	"time"
 
-	"ariga.io/atlas/cmd/atlas/internal/cmdext"
-	"ariga.io/atlas/cmd/atlas/internal/cmdlog"
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlclient"
+	"github.com/veiloq/atlas/cmd/atlas/internal/cmdext"
+	"github.com/veiloq/atlas/cmd/atlas/internal/cmdlog"
+	"github.com/veiloq/atlas/sql/migrate"
+	"github.com/veiloq/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/sqlclient"
 
 	"github.com/1lann/promptui"
 	"github.com/chzyer/readline"

@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"ariga.io/atlas/sql/internal/spectest"
-	"ariga.io/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/internal/spectest"
+	"github.com/veiloq/atlas/sql/schema"
 	"github.com/stretchr/testify/require"
 )
 

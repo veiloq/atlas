@@ -7,9 +7,9 @@
 package ent
 
 import (
-	"ariga.io/atlas/cmd/atlas/internal/migrate/ent/revision"
-	"ariga.io/atlas/cmd/atlas/internal/migrate/ent/schema"
-	"ariga.io/atlas/sql/migrate"
+	"github.com/veiloq/atlas/cmd/atlas/internal/migrate/ent/revision"
+	"github.com/veiloq/atlas/cmd/atlas/internal/migrate/ent/schema"
+	"github.com/veiloq/atlas/sql/migrate"
 )
 
 // The init function reads all schema descriptors with runtime code

@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"strings"
 
-	"ariga.io/atlas/sql/internal/sqlx"
-	"ariga.io/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/internal/sqlx"
+	"github.com/veiloq/atlas/sql/schema"
 )
 
 // A diff provides an SQLite implementation for schema.Inspector.

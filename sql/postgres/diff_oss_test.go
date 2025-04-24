@@ -10,8 +10,8 @@ import (
 	"context"
 	"testing"
 
-	"ariga.io/atlas/schemahcl"
-	"ariga.io/atlas/sql/schema"
+	"github.com/veiloq/atlas/schemahcl"
+	"github.com/veiloq/atlas/sql/schema"
 
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/stretchr/testify/require"

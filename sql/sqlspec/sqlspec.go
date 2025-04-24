@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"strings"
 
-	"ariga.io/atlas/schemahcl"
+	"github.com/veiloq/atlas/schemahcl"
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/zclconf/go-cty/cty"

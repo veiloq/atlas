@@ -8,11 +8,11 @@ import (
 	"context"
 	"testing"
 
-	"ariga.io/atlas/sql/migrate"
-	"ariga.io/atlas/sql/postgres"
-	_ "ariga.io/atlas/sql/postgres/postgrescheck"
-	"ariga.io/atlas/sql/schema"
-	"ariga.io/atlas/sql/sqlcheck"
+	"github.com/veiloq/atlas/sql/migrate"
+	"github.com/veiloq/atlas/sql/postgres"
+	_ "github.com/veiloq/atlas/sql/postgres/postgrescheck"
+	"github.com/veiloq/atlas/sql/schema"
+	"github.com/veiloq/atlas/sql/sqlcheck"
 
 	"github.com/stretchr/testify/require"
 )
